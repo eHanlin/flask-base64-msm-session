@@ -26,8 +26,7 @@ app.session_cookie_name = 'JSESSIONID'
 app.session_interface = MemcachedSessionProcessor(['localhost:11211'])
 ```
 
-LICENSE
-===================================================
+## LICENSE
 
 The MIT License (MIT)
 
