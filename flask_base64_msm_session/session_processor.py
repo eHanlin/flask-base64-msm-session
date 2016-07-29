@@ -23,7 +23,7 @@ class MemcachedSessionProcessor(object):
             session = Session(session_id)
             session.update(data)
         else:
-            session = Session(uuid.uuid1().hex)
+            session = Session(uuid.uuid1().hex.upper())
 
         return session
 
